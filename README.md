@@ -1,39 +1,81 @@
-![Centro Universitário IESB](doc/img/logoIesb.png)
+# Chatbot App
 
-# Projeto Eda - Chatbot
+## Visão Geral
 
-## Resumo
+Este repositório contém o código-fonte de um aplicativo de Chatbot, implementado usando React para o frontend. O aplicativo inclui recursos como autenticação de usuário, uma interface de chat e uma página de login. A estrutura do projeto está organizada com diferentes componentes e páginas.
 
-Informar o objetivo do projeto
+## Índice
 
-## Instalação
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar](#como-executar)
+- [Uso](#uso)
+- [Recursos](#recursos)
+- [Contribuições](#contribuições)
+- [Licença](#licença)
+- [Contato](#contato)
 
-Detalhar como um usuário pode instalar e usar o sistema
+## Estrutura de Pastas
 
-## Tecnologias
+O projeto está organizado nas seguintes pastas principais:
 
-### Frontend:
+- **src:** Contém o código-fonte para a aplicação React.
+  - **components:** Componentes de IU reutilizáveis usados em todo o aplicativo.
+  - **context:** Provedores e consumidores de contexto para gerenciar o estado em nível de aplicativo.
+  - **hooks:** Hooks personalizados para várias funcionalidades.
+  - **pages:** Componentes React representando diferentes páginas do aplicativo.
+  - **utils:** Funções utilitárias usadas em todo o aplicativo.
 
-- HTML
-- CSS
-- JavaScript
-- Vite
-- React
-- Styled Components
+## Tecnologias Utilizadas
 
-## Autores
+- React: Uma biblioteca JavaScript para construir interfaces de usuário.
+- React Router: Para lidar com a navegação dentro do aplicativo.
+- Styled Components: Para estilizar componentes React com literais marcados.
+- FontAwesome: Para incorporar ícones de fontes na aplicação.
+- React Spinners: Para exibir spinners de carregamento.
 
-Abaixo temos uma lista de pessoas que participaram deste projeto ao longo dos anos.
+## Como Executar
 
-### Equipe 1º/2023
+Para executar o aplicativo localmente, siga estas etapas:
 
-| E-mail | Nome | Função |
-| ------ | ---- | ------ |
-| sarah._gleice@hotmail.com | Sarah Gleice Andrade de Souza | Gerente de Projeto |
-| valdirenealvesdebrito@gmail.com | Valdirene Alves de Brito | Scrum Master, Analista de Requisitos e Testes |
-| vivianeferreiras1@outlook.com | Viviane Ferreira Santos | Lider de Equipe e Desenvolvedor Frontend |
-| maxpaulo.mps@gmail.com | Maxwell Paulo da Silva | Desenvolvedor Frontend |
-| limapaulobsb@gmail.com | Paulo Henrique Andrade Pinto de Lima | Desenvolvedor Frontend |
-| jpfox.alves@gmail.com | João Pedro Alves da Silva | Lider de Equipe e Desenvolver Backend |
-| laisamarianesl@gmail.com | Laisa Mariane Silva leite | Desenvolvedor Backend |
-| rafaelrpimentel.m@gmail.com | Rafael Rodrigues Pimentel Muniz | Desenvolvedor Backend |
+1. Clone o repositório:
+
+   ```bash
+   git clone <url_do_repositório>
+   
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd <pasta_do_projeto>
+
+3. Instale as dependências:
+   ```bash
+   npm install
+
+4. Abra seu navegador e vá para http://localhost:3000 para visualizar o aplicativo.
+
+## Uso
+
+O aplicativo consiste em várias páginas, incluindo uma página inicial com uma interface de chat e uma página de login. Os usuários podem fazer login e usar os recursos de chat. O aplicativo oferece um design responsivo para diferentes tamanhos de tela.
+
+## Recursos
+
+1.Autenticação: Os usuários podem fazer login para acessar os recursos de chat.
+2.Interface de Chat: Uma interface de chat é fornecida para que os usuários possam interagir com o chatbot.
+3.Spinner de Carregamento: Um spinner de carregamento é exibido durante a recuperação de dados ou operações.
+4. Validação de Formulário: Os campos de entrada são validados, e mensagens de erro são exibidas quando necessário.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se encontrar bugs ou tiver sugestões de melhorias, abra uma issue ou envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+## Contato
+
+Para dúvidas ou informações adicionais, sinta-se à vontade para entrar em contato pelos detalhes fornecidos no repositório.
+
+```go
+
+Diego Paiva
